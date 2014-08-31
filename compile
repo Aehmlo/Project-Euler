@@ -1,0 +1,2 @@
+#!/bin/bash
+xcrun swift "$1.swift" -sdk $(xcrun --show-sdk-path --sdk macosx)
